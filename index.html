@@ -133,8 +133,8 @@ form.cf{background:#fff;border:1px solid var(--line);border-radius:20px;padding:
 .sw code{color:var(--mut)}
 .types{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:2rem}
 .types>div{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:1.6rem}
-.toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,120px);background:var(--char);color:#fff;padding:.7rem 1.2rem;border-radius:999px;font-size:.9rem;transition:transform .3s;z-index:90}
-.toast.on{transform:translate(-50%,0)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,120px);background:var(--char);color:#fff;padding:.7rem 1.2rem;border-radius:999px;font-size:.9rem;transition:transform .3s,opacity .3s;z-index:90;opacity:0}
+.toast.on{transform:translate(-50%,0);opacity:1}
 footer{background:var(--char);color:#aab3ad;padding:3.5rem 0 2rem;margin-top:0}
 .fg{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:2rem}
 footer h4{color:#fff;margin-bottom:.8rem}footer a{display:block;padding:.2rem 0;font-size:.92rem}footer a:hover{color:var(--timber2)}
